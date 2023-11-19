@@ -17,7 +17,6 @@ hsv = (0.6, 100/360, 100/360)
 
 def draw(plant: Plant):
     t = plant.t
-    objs = []
     width = plant.line_width
     length = plant.line_length
     current_hsv = plant.start_hsv
