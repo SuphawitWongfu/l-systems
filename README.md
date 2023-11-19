@@ -45,3 +45,7 @@ This project required `numpy` and `turtle` to function, please install them usin
 python drawer.py
 ```
 the current code is running a function called `make_forest()` which randomly generated 100 trees.
+
+### Source
+Most of the ideas in this project are derived from the first chapter of 
+[this book](http://algorithmicbotany.org/papers/abop/abop.pdf)
