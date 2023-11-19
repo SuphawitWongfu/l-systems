@@ -2,8 +2,13 @@ from abc import ABC, abstractmethod
 from turtle import Turtle
 import numpy as np
 
+'''
+This file contains plant types which are defined as classes
+'''
 class Plant(ABC):
+    # the string of symbols use to draw
     grammar: str
+    # each plant has their own turtle, so they can draw separately
     t: Turtle
     def __init__(self, size: int, start_hsv: tuple, line_length: int, line_width: int, angle: float):
         self.size = size
@@ -12,6 +17,8 @@ class Plant(ABC):
         self.line_width = line_width
         self.angle = angle
         self.t = Turtle()
+
+    # apply its own rule to its own grammar to generate the new grammar
     @abstractmethod
     def mutate(self):
         pass
