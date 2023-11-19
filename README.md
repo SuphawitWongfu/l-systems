@@ -1,6 +1,10 @@
 # L-systems
 
+![thumbnail gif](fractral_tree.gif "fractral tree")
+
 ![thumbnail](thumbnail.png "thumbnail")
+
+
 
 This project aims to implement the creation of fractal trees using L-systems
 
