@@ -1,5 +1,7 @@
 # L-systems
 
+![thumbnail](thumbnail.png "thumbnail")
+
 This project aims to implement the creation of fractal trees using L-systems
 
 L-systems was first developed by a biologist named Lindenmayor. The systems was used to study the development of simple multicellular organisms, then subsequently apply to create plant organs.
@@ -31,3 +33,11 @@ L-systems involves defining a string of symbols, the meaning for each symbols, a
 
 ### Randomness
 To make it more interesting, I added simple randomness to some rules in some kind of trees, this will make the generated fractal trees better resemble the real tree since it is not uniform and slightly different in each generation. 
+
+### Setup
+This project required `numpy` and `turtle` to function, please install them using your prefer package manager.
+ then
+```zsh
+python drawer.py
+```
+the current code is running a function called `make_forest()` which randomly generated 100 trees.

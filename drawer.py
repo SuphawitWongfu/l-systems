@@ -144,5 +144,5 @@ def make_forest(n):
         time.sleep(0.3)
     screen.mainloop()
 
-make_forest(10)
+make_forest(100)
         
